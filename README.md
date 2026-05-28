@@ -1,12 +1,4 @@
-# ⚡ Zeta - AI Assistant Chrome Extension
-
 # ⚡ Zeta — AI Assistant Chrome Extension
-
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)
-[![Flask](https://img.shields.io/badge/Backend-Flask-lightgrey)](https://flask.palletsprojects.com)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-2.0-purple)]()
 
 > Highlight any text on any webpage, press **Ctrl+I**, and get an AI-generated answer instantly — without leaving the page.
 
@@ -16,19 +8,7 @@ Built during my internship at **Cvent** to speed up research and reduce context-
 
 ## Demo
 
-<!-- 
-  REPLACE THIS SECTION:
-  Option A — embed a YouTube/Loom link as a clickable thumbnail:
-  [![Watch demo](assets/thumbnail.png)](https://your-loom-or-youtube-link)
-
-  Option B — embed a GIF directly (use ScreenToGif or Kap to record):
-  ![Zeta demo](assets/demo.gif)
-
-  Option C — just link the video:
-  📹 [Watch a 2-minute walkthrough →](https://your-link-here)
--->
-
-📹 [Watch the walkthrough →](YOUR_VIDEO_LINK_HERE)
+[![Watch demo](assets/thumbnail.png)](https://www.loom.com/share/278ac45c19da43ec9c2c6f707f78483b)
 
 ---
 
@@ -163,7 +143,6 @@ The v1.0 prototype was functional within a day. v2.0 introduced response caching
 ## What I'd build next
 
 - [ ] Support for multiple AI providers (Gemini, Claude, local Ollama models)
-- [ ] Conversation history within a session — follow-up questions on the same selection
 - [ ] Page summarisation mode — summarise the entire current page, not just a selection
 - [ ] Chrome Web Store publishing with user-configurable API key input
 
@@ -176,49 +155,3 @@ The v1.0 prototype was functional within a day. v2.0 introduced response caching
 ---
 
 Made by [Saumya Garg](https://linkedin.com/in/saumya-garg-1ab39224b) · [GitHub](https://github.com/saumya-2409)
-
-> 🚀 Instantly get AI-powered answers by selecting text on any web page — lightweight, fast, and secure.
-> 
----
-
-## ✨ Features
-
-* 🖱️ **Select & Ask**: Highlight any text and send it to your custom backend API
-* 🔗 **Popup Access**: Trigger via context menu or `Ctrl+I` / `Cmd+I`
-* ⚡ **Fast Responses**: Fetches cached or live AI answers
-* 🔄 **UX Touches**: Includes a loader animation and copy-to-clipboard support
-
----
-
-## 🛠️ Setup Instructions
-
-### 1️⃣ Load Extension in Chrome
-
-1. Clone or download this repository
-2. Go to `chrome://extensions/`
-3. Enable **Developer Mode**
-4. Click **Load Unpacked** and select the project folder
-
-### 2️⃣ Configure Backend
-
-In `background.js` and `flask_app.py`, update:
-
-* 🔗 Your **API endpoint** (`https://your-backend-endpoint.com`)
-* 🔐 **Authorization headers/tokens**
-
-> ⚠️ **Do not commit sensitive keys**. Use environment variables or a secure secrets manager.
-
-### 3️⃣ Set Keyboard Shortcut
-
-* Default: `Ctrl+I` / `Cmd+I`
-* Change via: `chrome://extensions/shortcuts`
-
----
-
-## 📄 License
-
-Licensed under the [MIT License](./LICENSE) — feel free to use, modify, and share.
-
----
-
-Built with ❤️ to enhance your **research**, **reading**, and **productivity** — one click at a time.
